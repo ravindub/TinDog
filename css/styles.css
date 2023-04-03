@@ -135,3 +135,46 @@ body {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* call to action section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.social-icons {
+  padding: 1%;
+}
+
+.social-icons svg {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
